@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> Grade conversions</title>
+  <link rel="stylesheet" type="text/css" href="layout.css" title="style" /> 
+  <script src ="grades.js" ></script>
+</head>
+<body>
+    <img src = 'images/giphy.gif' id = 'selector'/>
+  <header>
+    <h1> Quick and Easy Grade Conversions </h1>
+  </header>
+  <div class="column1">
+    <div class="input">
+	Enter Average to determine letter grade <input id="num1" type="number" min="-32768" max="32767"/>
+	</div>
+	<div class="input">
+	  <button onclick = "mapping()"> Enter </button>
+	</div>
+	<strong><p id="output">	</p></strong>
+  </div>	
+  <div class="column2">
+  <div class="input">
+	Enter Average to determine GPA on the 4.0 scale <input id="num2" type="number" min="0" max="32767"/>
+	</div>
+	<div class="input">
+	  <button onclick = "point()"> Enter </button>
+	</div>
+	<strong><p id="output2"> </p></strong>
+  </div>
+  <footer><span>Saiz Prasla</span> 
+    <footer>&copy;<span>Copyright 2021.</span> 
+      <footer><span>All rights reserved</span> 
+  </footer>
+</body>
+</html>
